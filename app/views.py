@@ -225,7 +225,3 @@ appbuilder.add_view(CountryDirectChartView, "Direct Chart Example", icon="fa-bar
                 label=_('Direct Chart Example'), category="Chart Examples")
 appbuilder.add_view(MasterGroupByChartView, "Master Chart Example", icon="fa-bar-chart-o",
                 label=_('Master Detail Chart Example'), category="Chart Examples")
-appbuilder.add_view(CountryGroupByChartView, "Group By Chart Example", icon="fa-bar-chart-o",
-                label=_('Group By Chart Example'), category="Chart Examples")
-appbuilder.add_view(CountryPieGroupByChartView, "Group By Pie Chart Example", icon="fa-bar-chart-o",
-                label=_('Group By Pie Chart Example'), category="Chart Examples")
