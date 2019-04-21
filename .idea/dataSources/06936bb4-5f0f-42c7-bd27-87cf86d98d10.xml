@@ -44,7 +44,6 @@
     <index id="26" parent="6" name="sqlite_autoindex_ab_permission_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>name</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="27" parent="6">
@@ -72,7 +71,6 @@
       <NameSurrogate>1</NameSurrogate>
       <ColNames>permission_id
 view_menu_id</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="33" parent="7">
@@ -111,7 +109,6 @@ view_menu_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ColNames>permission_view_id
 role_id</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="41" parent="8">
@@ -173,7 +170,6 @@ role_id</ColNames>
     <index id="53" parent="9" name="sqlite_autoindex_ab_register_user_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>username</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="54" parent="9">
@@ -197,7 +193,6 @@ role_id</ColNames>
     <index id="58" parent="10" name="sqlite_autoindex_ab_role_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>name</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="59" parent="10">
@@ -272,13 +267,11 @@ role_id</ColNames>
     <index id="75" parent="11" name="sqlite_autoindex_ab_user_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>username</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <index id="76" parent="11" name="sqlite_autoindex_ab_user_2">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>email</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="77" parent="11">
@@ -323,7 +316,6 @@ role_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ColNames>user_id
 role_id</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="87" parent="12">
@@ -358,7 +350,6 @@ role_id</ColNames>
     <index id="93" parent="13" name="sqlite_autoindex_ab_view_menu_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>name</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="94" parent="13">
@@ -377,7 +368,6 @@ role_id</ColNames>
     <index id="97" parent="14" name="sqlite_autoindex_alembic_version_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>version_num</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="98" parent="14" name="alembic_version_pkc">
@@ -398,7 +388,6 @@ role_id</ColNames>
     <index id="101" parent="15" name="sqlite_autoindex_benefit_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>name</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="102" parent="15">
@@ -449,7 +438,6 @@ role_id</ColNames>
     <index id="112" parent="17" name="sqlite_autoindex_country_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>name</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="113" parent="17">
@@ -473,7 +461,6 @@ role_id</ColNames>
     <index id="117" parent="18" name="sqlite_autoindex_department_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>name</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="118" parent="18">
@@ -591,7 +578,6 @@ role_id</ColNames>
     <index id="142" parent="21" name="sqlite_autoindex_function_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>name</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="143" parent="21">
@@ -615,7 +601,6 @@ role_id</ColNames>
     <index id="147" parent="22" name="sqlite_autoindex_gender_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>name</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="148" parent="22">
