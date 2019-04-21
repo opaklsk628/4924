@@ -5,15 +5,8 @@ from sqlalchemy.engine import Engine
 from sqlalchemy import event
 from .indexview import FABView
 from flask_migrate import Migrate
-<<<<<<< HEAD
 
-=======
->>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
 logging.basicConfig(format='%(asctime)s:%(levelname)s:%(name)s:%(message)s')
 logging.getLogger().setLevel(logging.DEBUG)
 
@@ -37,13 +30,4 @@ from app import views, data
 
 db.create_all()
 #data.fill_gender()
-<<<<<<< HEAD
 #data.fill_data()
-=======
-<<<<<<< HEAD
-#data.fill_data()
-=======
-#data.fill_data()
-
->>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
->>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
