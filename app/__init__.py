@@ -4,6 +4,8 @@ from flask_appbuilder import AppBuilder, SQLA
 from sqlalchemy.engine import Engine
 from sqlalchemy import event
 from .indexview import FABView
+from flask_migrate import Migrate
+
 
 logging.basicConfig(format='%(asctime)s:%(levelname)s:%(name)s:%(message)s')
 logging.getLogger().setLevel(logging.DEBUG)
@@ -12,7 +14,7 @@ app = Flask(__name__)
 app.config.from_object('config')
 db = SQLA(app)
 appbuilder = AppBuilder(app, db.session, base_template='mybase.html', indexview=FABView)
-
+migrate = Migrate(app, db)
 
 """
 Only include this for SQLLite constraints
@@ -29,4 +31,3 @@ from app import views, data
 db.create_all()
 #data.fill_gender()
 #data.fill_data()
-
