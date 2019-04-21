@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.6 (Flask-AppBuilder-Site)" project-jdk-type="Python SDK" />
+=======
+<<<<<<< HEAD
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.6 (Flask-AppBuilder-Site)" project-jdk-type="Python SDK" />
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.6 (appbuilder)" project-jdk-type="Python SDK" />
+>>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
 </project>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="5a109abb-bdd8-4e02-9ffa-c92ee517b309" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/flask-appbuilder-site.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flask-appbuilder-site.iml" afterDir="false" />
@@ -10,6 +11,15 @@
       <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
     </list>
+=======
+<<<<<<< HEAD
+    <list default="true" id="5a109abb-bdd8-4e02-9ffa-c92ee517b309" name="Default" comment="" />
+=======
+    <list default="true" id="5a109abb-bdd8-4e02-9ffa-c92ee517b309" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+    </list>
+>>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +28,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/Flask_AppBuilder_Site$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1555852213670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+=======
+<<<<<<< HEAD
+    <SUITE FILE_PATH="coverage/Flask_AppBuilder_Site$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1555857349152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+=======
+    <SUITE FILE_PATH="coverage/Flask_AppBuilder_Site$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1554980495080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+>>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -50,20 +68,50 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
       </path>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="app" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+        <item name="ab_user_role: table" type="ffe0bd85:SqliteImplModel$Table" />
+      </path>
+=======
+>>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="config.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1125">
               <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+=======
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+>>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="registerviews.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask_appbuilder/security/registerviews.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,20 +119,80 @@
               <caret line="77" column="43" lean-forward="true" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
               <folding>
                 <element signature="e#25#39#0" expanded="true" />
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="registerviews.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask_appbuilder/security/registerviews.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1005">
+              <caret line="77" column="43" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
+              <folding>
+                <element signature="e#25#39#0" expanded="true" />
+=======
+      <file leaf-file-name="ab_user_role" pinned="false" current-in-tab="false">
+        <entry file="das://06936bb4-5f0f-42c7-bd27-87cf86d98d10/schema/main/table/ab_user_role">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+>>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="manager.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask_appbuilder/security/manager.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="12" column="112" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="112" />
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="manager.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask_appbuilder/security/manager.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="112" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="112" />
+=======
+      <file leaf-file-name="ab_user" pinned="false" current-in-tab="false">
+        <entry file="das://06936bb4-5f0f-42c7-bd27-87cf86d98d10/schema/main/table/ab_user">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="59" lean-forward="true" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+>>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -103,6 +211,21 @@
       <find>Register</find>
       <find>AUTH_TYPE</find>
       <find>register</find>
+<<<<<<< HEAD
+=======
+=======
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>user</find>
+>>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,11 +234,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
         <option value="$PROJECT_DIR$/app/custom_registrationform.py" />
         <option value="$PROJECT_DIR$/app/__init__.py" />
         <option value="$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask_appbuilder/security/manager.py" />
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask_appbuilder/security/registerviews.py" />
+<<<<<<< HEAD
+=======
+=======
+        <option value="$PROJECT_DIR$/app/__init__.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+>>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
       </list>
     </option>
   </component>
@@ -124,6 +258,7 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+<<<<<<< HEAD
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
@@ -134,6 +269,25 @@
     <option name="width" value="653" />
     <option name="height" value="470" />
   </component>
+=======
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
+    <option name="x" value="399" />
+    <option name="y" value="85" />
+    <option name="width" value="653" />
+    <option name="height" value="470" />
+=======
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="655" />
+    <option name="height" value="404" />
+>>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
+  </component>
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
@@ -143,7 +297,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+<<<<<<< HEAD
+      <pane id="Scope" />
+=======
+>>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,6 +317,10 @@
               <item name="Flask-AppBuilder-Site" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
             <path>
               <item name="Flask-AppBuilder-Site" type="b2602c69:ProjectViewProjectNode" />
               <item name="Flask-AppBuilder-Site" type="462c0819:PsiDirectoryNode" />
@@ -201,10 +366,22 @@
               <item name="flask_appbuilder" type="462c0819:PsiDirectoryNode" />
               <item name="security" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,9 +411,21 @@
       <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+<<<<<<< HEAD
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="true" />
+=======
+<<<<<<< HEAD
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+=======
+      <option name="SDK_HOME" value="$USER_HOME$/appbuilder/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+>>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -257,11 +446,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="64" y="-11" width="2497" height="1452" extended-state="6" />
+=======
+<<<<<<< HEAD
+    <frame x="64" y="-11" width="737" height="612" extended-state="6" />
+=======
+    <frame x="64" y="-11" width="2497" height="1452" extended-state="6" />
+    <editor active="true" />
+>>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25057122" />
@@ -269,10 +468,36 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12454063" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.7677794" />
+=======
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6955603" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27272728" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.41654572" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.5820029" />
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+<<<<<<< HEAD
+=======
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32827103" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27336448" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12290731" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.19069007" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+>>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -292,6 +517,34 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="1125">
+          <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask_appbuilder/security/registerviews.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="43" lean-forward="true" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
+          <folding>
+            <element signature="e#25#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask_appbuilder/security/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="112" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
         <state relative-caret-position="1035">
           <caret line="69" column="44" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
         </state>
@@ -299,6 +552,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
         <state relative-caret-position="180">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
@@ -322,6 +580,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+>>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
         </state>
       </provider>
     </entry>
@@ -349,6 +616,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+>>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
         </state>
       </provider>
     </entry>
@@ -365,6 +641,7 @@
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
     <entry file="das://06936bb4-5f0f-42c7-bd27-87cf86d98d10/schema/main/table/ab_user_role">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -379,6 +656,9 @@
         </state>
       </provider>
     </entry>
+=======
+<<<<<<< HEAD
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -421,21 +701,139 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask_appbuilder/security/registerviews.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="435">
           <caret line="77" column="43" lean-forward="true" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
           <folding>
             <element signature="e#25#39#0" expanded="true" />
+=======
+        <state relative-caret-position="1005">
+          <caret line="77" column="43" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
+          <folding>
+            <element signature="e#25#39#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+>>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask_appbuilder/security/manager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask_appbuilder/security/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
           <caret line="12" column="112" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="112" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="das://06936bb4-5f0f-42c7-bd27-87cf86d98d10/schema/main/table/ab_permission_view_role">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://06936bb4-5f0f-42c7-bd27-87cf86d98d10/schema/main/table/ab_register_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://06936bb4-5f0f-42c7-bd27-87cf86d98d10/schema/main/table/ab_role">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://06936bb4-5f0f-42c7-bd27-87cf86d98d10/schema/main/table/department">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://06936bb4-5f0f-42c7-bd27-87cf86d98d10/schema/main/table/employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://06936bb4-5f0f-42c7-bd27-87cf86d98d10/schema/main/table/employee_history">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://06936bb4-5f0f-42c7-bd27-87cf86d98d10/schema/main/table/gender">
+=======
+    <entry file="das://06936bb4-5f0f-42c7-bd27-87cf86d98d10/schema/main/table/ab_user_role">
+>>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="das://06936bb4-5f0f-42c7-bd27-87cf86d98d10/schema/main/table/function">
+=======
+    <entry file="das://06936bb4-5f0f-42c7-bd27-87cf86d98d10/schema/main/table/ab_user">
+>>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="das://06936bb4-5f0f-42c7-bd27-87cf86d98d10/schema/main/table/ab_user_role">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://06936bb4-5f0f-42c7-bd27-87cf86d98d10/schema/main/table/ab_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="59" lean-forward="true" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
@@ -443,5 +841,16 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+>>>>>>> 720c671f36f0482888cb35e9f87b811fb7c0eb8d
+        </state>
+      </provider>
+    </entry>
+>>>>>>> c73bbd2a6c42df92311a598ff49aef18df127c17
   </component>
 </project>
