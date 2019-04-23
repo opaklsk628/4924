@@ -1,4 +1,73 @@
 li.tight {
     margin-top: 0;
     margin-bottom: 0;
+
+
+}
+
+
+h1 {
+    font-weight: lighter;
+    font-size: 40px;
+    color: lightblue;
+    text-align: center;
+    background-color: yellow;
+    text-shadow: 2px 2px black;
+
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 3vh;
+    text-shadow: 10px 10px yellow;
+}
+
+
+p{
+    font-size: 18px;
+    color: black;
+    line-height: 16px;
+}
+
+
+ul {
+    font-size: 18px;
+    color: red;
+}
+
+.Facebook {
+    position: relative;
+    display: flex;
+}
+
+.Facebook span {
+    color: white;
+    margin: 3px 3px;
+    font-size: 2em;
+    font-weight: bold;
+    animation: animate 3.4s linear infinite;
+}
+
+@keyframes animate {
+    0%{
+        text-shadow: 0 0 10px rgba(0,0,0,0);
+        transform: scale(1);
+    }
+    40%{
+        text-shadow: 0 0 20px rgba(0,0,0,0.2);
+        transform: scale(1.4);
+    }
+
+}
+
+
+
+
+
+.inline-block {
+    display: inline-block;
 }

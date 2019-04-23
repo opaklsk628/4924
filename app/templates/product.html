@@ -1,0 +1,561 @@
+<!-- extend base layout -->
+{% extends "index_base.html" %}
+
+{% block head_css %}
+        {{ super() }}
+        <link href="{{url_for('static',filename='css/custom.css')}}" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<html>
+<div class="container">
+    <div class="row">
+        <h1>{{param1}}</h1>
+    </div>
+</div>
+
+<head>
+
+<style>
+body{
+    margin-top:20px;
+    background:#eee;
+}
+
+.prod-info-main {
+    border: 1px solid #CEEFFF;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background: #fff;
+    padding: 6px;
+    -webkit-box-shadow: 0 1px 4px 0 rgba(21,180,255,0.5);
+    box-shadow: 0 1px 1px 0 rgba(21,180,255,0.5);
+}
+
+.prod-info-main .product-image {
+    background-color: #EBF8FE;
+    display: block;
+    min-height: 238px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #CEEFFF;
+    padding-top: 40px;
+}
+
+.prod-info-main .product-deatil {
+    border-bottom: 1px solid #dfe5e9;
+    padding-bottom: 17px;
+    padding-left: 16px;
+    padding-top: 16px;
+    position: relative;
+    background: #fff
+}
+
+.product-content .product-deatil h5 a {
+    color: #2f383d;
+    font-size: 15px;
+    line-height: 19px;
+    text-decoration: none;
+    padding-left: 0;
+    margin-left: 0
+}
+
+.prod-info-main .product-deatil h5 a span {
+    color: #9aa7af;
+    display: block;
+    font-size: 13px
+}
+
+.prod-info-main .product-deatil span.tag1 {
+    border-radius: 50%;
+    color: #fff;
+    font-size: 15px;
+    height: 50px;
+    padding: 13px 0;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 10px;
+    width: 50px
+}
+
+
+.prod-info-main .description {
+    font-size: 12.5px;
+    line-height: 20px;
+    padding: 10px 14px 16px 19px;
+    background: #fff
+}
+
+.prod-info-main .product-info {
+    padding: 11px 19px 10px 20px
+}
+
+.prod-info-main .product-info a.add-to-cart {
+    color: #2f383d;
+    font-size: 13px;
+    padding-left: 16px
+}
+
+.prod-info-main name.a {
+    padding: 5px 10px;
+    margin-left: 16px
+}
+
+.product-info.smart-form .btn {
+    padding: 6px 12px;
+    margin-left: 12px;
+    margin-top: -10px
+}
+
+.load-more-btn {
+    background-color: #21c2f8;
+    border-bottom: 2px solid #037ca5;
+    border-radius: 2px;
+    border-top: 2px solid #0cf;
+    margin-top: 20px;
+    padding: 9px 0;
+    width: 100%
+}
+
+.product-block .product-deatil p.price-container span,
+.prod-info-main .product-deatil p.price-container span,
+.shipping table tbody tr td p.price-container span,
+.shopping-items table tbody tr td p.price-container span {
+    color: #21c2f8;
+    font-family: Lato, sans-serif;
+    font-size: 24px;
+    line-height: 20px
+}
+
+.product-info.smart-form .rating label {
+    margin-top:15px;
+
+}
+
+.prod-wrap .product-image span.tag2 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 11px;
+    text-align: center
+}
+
+.prod-wrap .product-image span.tag3 {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 60px;
+    height: 36px;
+    border-radius: 50%;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 11px;
+    text-align: center
+}
+
+.prod-wrap .product-image span.sale {
+    background-color: #57889c;
+}
+
+.prod-wrap .product-image span.hot {
+    background-color: #a90329;
+}
+
+.prod-wrap .product-image span.special {
+    background-color: #3B6764;
+}
+.shop-btn {
+    position: relative
+}
+
+.shop-btn>span {
+    background: #a90329;
+    display: inline-block;
+    font-size: 10px;
+    box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1), inset 0 -1px 0 rgba(0, 0, 0, .07);
+    font-weight: 700;
+    border-radius: 50%;
+    padding: 2px 4px 3px!important;
+    text-align: center;
+    line-height: normal;
+    width: 19px;
+    top: -7px;
+    left: -7px
+}
+
+.product-deatil hr {
+    padding: 0 0 5px!important
+}
+
+.product-deatil .glyphicon {
+    color: #3276b1
+}
+
+.product-deatil .product-image {
+    border-right: 0px solid #fff !important
+}
+
+.product-deatil .name {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.product-deatil .name small {
+    display: block
+}
+
+.product-deatil .name a {
+    margin-left: 0
+}
+
+.product-deatil .price-container {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 300;
+
+}
+
+.product-deatil .price-container small {
+    font-size: 12px;
+
+}
+
+.product-deatil .fa-2x {
+    font-size: 16px!important
+}
+
+.product-deatil .fa-2x>h5 {
+    font-size: 12px;
+    margin: 0
+}
+
+.product-deatil .fa-2x+a,
+.product-deatil .fa-2x+a+a {
+    font-size: 13px
+}
+
+.product-deatil .certified {
+    margin-top: 10px
+}
+
+.product-deatil .certified ul {
+    padding-left: 0
+}
+
+.product-deatil .certified ul li:not(first-child) {
+    margin-left: -3px
+}
+
+.product-deatil .certified ul li {
+    display: inline-block;
+    background-color: #f9f9f9;
+    padding: 13px 19px
+}
+
+.product-deatil .certified ul li:first-child {
+    border-right: none
+}
+
+.product-deatil .certified ul li a {
+    text-align: left;
+    font-size: 12px;
+    color: #6d7a83;
+    line-height: 16px;
+    text-decoration: none
+}
+
+.product-deatil .certified ul li a span {
+    display: block;
+    color: #21c2f8;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center
+}
+
+.product-deatil .message-text {
+    width: calc(100% - 70px)
+}
+
+@media only screen and (min-width:1024px) {
+    .prod-info-main div[class*=col-md-4] {
+        padding-right: 0
+    }
+    .prod-info-main div[class*=col-md-8] {
+        padding: 0 13px 0 0
+    }
+    .prod-wrap div[class*=col-md-5] {
+        padding-right: 0
+    }
+    .prod-wrap div[class*=col-md-7] {
+        padding: 0 13px 0 0
+    }
+    .prod-info-main .product-image {
+        border-right: 1px solid #dfe5e9
+    }
+    .prod-info-main .product-info {
+        position: relative
+    }
+}
+</style>
+
+</head>
+
+<body>
+<div class="container">
+<div class="col-xs-12 col-md-6">
+	<div class="prod-info-main prod-wrap clearfix">
+		<div class="row">
+				<div class="col-md-5 col-sm-12 col-xs-12">
+					<div class="product-image">
+						<img src="{{url_for('static',filename='img/p1.jpg')}}" class="img-responsive">
+					</div>
+				</div>
+				<div class="col-md-7 col-sm-12 col-xs-12">
+				<div class="product-deatil">
+						<h5 class="name">
+							<a href="#">
+								iPhone XS 64GB
+							</a>
+						</h5>
+						<p class="price-container">
+							<span>$7000</span>
+						</p>
+						<span class="tag1"></span>
+				</div>
+				<div class="description">
+<p>Super Retina in two sizes — including the largest display ever on an iPhone. Even faster Face ID.</p>
+				</div>
+				<div class="product-info smart-form">
+					<div class="row">
+						<div class="col-md-12">
+							<a href="/paymentpageview/payment/" class="btn btn-danger">Buy</a>
+                            <a href="/paymentpageview/payment/" class="btn btn-info">More info</a>
+						</div>
+						<div class="col-md-12">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+<div class="col-xs-12 col-md-6">
+
+	<div class="prod-info-main prod-wrap clearfix">
+		<div class="row">
+				<div class="col-md-5 col-sm-12 col-xs-12">
+					<div class="product-image">
+						<img src="https://cdn.shopify.com/s/files/1/1270/3733/products/1_metal_black_4_740x.jpg?v=1536958740" alt="194x228" class="img-responsive">
+
+					</div>
+				</div>
+				<div class="col-md-7 col-sm-12 col-xs-12">
+				<div class="product-deatil">
+						<h5 class="name">
+							<a>
+								iPhone XS Max 64GB
+							</a>
+						</h5>
+						<p class="price-container">
+							<span>$8600</span>
+						</p>
+						<span class="tag1"></span>
+				</div>
+				<div class="description">
+					<p>The iPhone XS Max display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle</p>
+				</div>
+				<div class="product-info smart-form">
+					<div class="row">
+						<div class="col-md-12">
+							<a href="/paymentpageview/payment/" class="btn btn-danger">Buy</a>
+                            <a href="/paymentpageview/payment/" class="btn btn-info">More info</a>
+						</div>
+						<div class="col-md-12">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+<div class="col-xs-12 col-md-6">
+
+	<div class="prod-info-main prod-wrap clearfix">
+		<div class="row">
+				<div class="col-md-5 col-sm-12 col-xs-12">
+					<div class="product-image">
+						<img src="https://s3.pricemestatic.com/Images/ProductImages/201901/s10plus_m.PNG" alt="194x228" class="img-responsive">
+					</div>
+				</div>
+				<div class="col-md-7 col-sm-12 col-xs-12">
+				<div class="product-deatil">
+						<h5 class="name">
+							<a>
+								Samsung Galaxy S10 128GB
+							</a>
+						</h5>
+						<p class="price-container">
+							<span>$5998</span>
+						</p>
+						<span class="tag1"></span>
+				</div>
+				<div class="description">
+					<p>The result of 10 years of pioneering mobile firsts, Galaxy S10e, S10, and S10+ introduce the next generation of mobile innovation.</p>
+				</div>
+				<div class="product-info smart-form">
+					<div class="row">
+						<div class="col-md-12">
+							<a href="/paymentpageview/payment/" class="btn btn-danger">Buy</a>
+                            <a href="/paymentpageview/payment/" class="btn btn-info">More info</a>
+						</div>
+						<div class="col-md-12">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+<div class="col-xs-12 col-md-6">
+
+	<div class="prod-info-main prod-wrap clearfix">
+		<div class="row">
+				<div class="col-md-5 col-sm-12 col-xs-12">
+					<div class="product-image">
+						<img src="https://www.price.com.hk/space/product/343000/343935_njrad8_0.jpg" alt="194x228" class="img-responsive">
+					</div>
+				</div>
+				<div class="col-md-7 col-sm-12 col-xs-12">
+				<div class="product-deatil">
+						<h5 class="name">
+							<a href="#">
+								Samsung Galaxy Note9 128GB <span> .</span>
+							</a>
+						</h5>
+						<p class="price-container">
+							<span>$6998</span>
+						</p>
+						<span class="tag1"></span>
+				</div>
+				<div class="description">
+					<p>Samsung Galaxy Note 9 has an advanced 12MP front camera that ensures better clarity and 8MP front-facing camera for enviable selfies</p>
+				</div>
+				<div class="product-info smart-form">
+					<div class="row">
+						<div class="col-md-12">
+							<a href="/paymentpageview/payment/" class="btn btn-danger">Buy</a>
+                            <a href="/paymentpageview/payment/" class="btn btn-info">More info</a>
+						</div>
+						<div class="col-md-12">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+</div>
+
+
+<div class="col-xs-12 col-md-6">
+
+	<div class="prod-info-main prod-wrap clearfix">
+		<div class="row">
+				<div class="col-md-5 col-sm-12 col-xs-12">
+					<div class="product-image">
+						<img src="data:image/jpeg;base64,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" alt="194x228" class="img-responsive">
+					</div>
+				</div>
+				<div class="col-md-7 col-sm-12 col-xs-12">
+				<div class="product-deatil">
+						<h5 class="name">
+							<a>
+								iPhone 8 Plus 64GB
+							</a>
+						</h5>
+						<p class="price-container">
+							<span>$6099</span>
+						</p>
+						<span class="tag1"></span>
+				</div>
+				<div class="description">
+					<p>iPhone 8 Plus 64GB mobile features a 5.5" (13.97 cm) display with a screen resolution of Full HD (1080 x 1920 pixels) and runs on iOS v11 operating system</p>
+				</div>
+				<div class="product-info smart-form">
+					<div class="row">
+						<div class="col-md-12">
+							<a href="/paymentpageview/payment/" class="btn btn-danger">Buy</a>
+                            <a href="/paymentpageview/payment/" class="btn btn-info">More info</a>
+						</div>
+						<div class="col-md-12">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+</div>
+
+<div class="col-xs-12 col-md-6">
+
+	<div class="prod-info-main prod-wrap clearfix">
+		<div class="row">
+				<div class="col-md-5 col-sm-12 col-xs-12">
+					<div class="product-image">
+						<img src="https://static.appledaily.hk/images/apple-photos/apple_sub/20160316/large/59suber01.jpg" alt="194x228" class="img-responsive">
+					</div>
+				</div>
+				<div class="col-md-7 col-sm-12 col-xs-12">
+				<div class="product-deatil">
+						<h5 class="name">
+							<a>
+								iPhone SE
+							</a>
+						</h5>
+						<p class="price-container">
+							<span>$2498</span>
+						</p>
+						<span class="tag1"></span>
+				</div>Product Code/Name here
+				<div class="description">
+					<p>The iPhone SE (Special Edition)[4] is a smartphone that was designed and marketed by Apple Inc. It is part of the ninth generation of the iPhone alongside the iPhone 6S</p>
+				</div>
+				<div class="product-info smart-form">
+					<div class="row">
+						<div class="col-md-12">
+							<a href="/paymentpageview/payment/" class="btn btn-danger">Buy</a>
+                            <a href="/paymentpageview/payment/" class="btn btn-info">More info</a>
+						</div>
+						<div class="col-md-12">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+</div>
+</div>
+</body>
+</html>
+
+{% endblock %}
